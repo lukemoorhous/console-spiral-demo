@@ -31,10 +31,10 @@ Enter the size of the spiral matrix to print: 10
 
 
 
-Should you wish to change the style of the spiral, you can dive into program.py and alter the spiral class instatiation
+Should you wish to change the style of the spiral, you can dive into program.py and alter the spiral class properties at instantiation time
 
-Currently, you can edit these properties of the spiral:
+You can edit these properties of the spiral:
 
-- padding (default = 2). This attribute sets the number of spaces between the signal characters.
-- signal_char (default = "*"). The character used to draw the spiral.
-- noise_char (default = " "). The background of the spiral.
+- padding (default = 2). This attribute sets the number of spaces between the signal characters
+- signal_char (default = "*"). The character used to draw the spiral
+- noise_char (default = " "). The background of the spiral
