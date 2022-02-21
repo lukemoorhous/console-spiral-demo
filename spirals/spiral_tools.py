@@ -1,18 +1,20 @@
 class spiral:
-    def __init__(self, size, padding=2):
+    def __init__(self, size, padding=2, noise_char=" ", signal_char="*"):
         self.padding = padding
         self.size = size
+        self.noise_char = noise_char
+        self.signal_char = signal_char
         self.matrix = [
-            [" " for x in range((size-1)*padding+1)] for y in range(size)]
+            [noise_char for x in range((size-1)*padding+1)] for y in range(size)]
         self.fill_spiral()
 
     def populate_column(self, index, range):
         for i in range:
-            self.matrix[i][index] = "*"
+            self.matrix[i][index] = self.signal_char
 
     def populate_row(self, index, range):
         for i in range:
-            self.matrix[index][i] = "*"
+            self.matrix[index][i] = self.signal_char
 
     def fill_spiral(self):
         for i in range(self.size):

@@ -5,7 +5,7 @@ def spiral_program_script():
     print("Enter the size of the spiral matrix to print: ", end="")
     size = int(input())
 
-    spr = spiral(size, padding=2)
+    spr = spiral(size)
     print(spr)
 
 
