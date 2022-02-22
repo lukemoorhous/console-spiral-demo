@@ -1,6 +1,8 @@
-# Pythonic Approach
+# Node.JS Approach
 
-My first solution was written in Python rather than JavaScript. If you're curious about how it works, check it out below.
+This spiral program runs with Node.JS
+
+Read the instructions below to get the program running
 
 ## Running the mini-challenge program
 
@@ -8,13 +10,13 @@ To start the program, launch the program file from the approach's directory as f
 
 ```
 $ cd python-approach
-$ py program.py
+$ node spiral.js
 ```
 
 The program will then ask you for a size. You can enter any integer here. For example:
 
 ```
-$ py program.py
+$ node spiral.js
 
 Enter the size of the spiral matrix to print: 10
 [* * * * * * * * * *]
@@ -29,9 +31,7 @@ Enter the size of the spiral matrix to print: 10
 [                   ]
 ```
 
-
-
-Should you wish to change the style of the spiral, you can dive into program.py and alter the spiral class properties at instantiation time
+Should you wish to change the style of the spiral, you can dive into spiral.js and alter the spiral object properties
 
 You can edit these properties of the spiral:
 
